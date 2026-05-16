@@ -7,6 +7,7 @@ public class Main {
 
         String name = scnr.nextLine();
         int age = scnr.nextInt();
+        scnr.nextLine();
         String breed = scnr.nextLine();
 
         Cat pet = new Cat();
